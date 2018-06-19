@@ -1,0 +1,28 @@
+
+.gallery {
+    overflow-x: scroll;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.element{
+    height: 350px;
+    margin: 25px;
+    width: 200px;
+    min-width: 200px;
+    background-color: blueviolet;
+    display: inline;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.elementExpanded{
+    width: 500px;
+    min-width: 500px;
+}
