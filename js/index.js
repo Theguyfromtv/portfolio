@@ -4,7 +4,9 @@ jQuery(document).ready(function () {
         $(this).addClass('elementExpanded');
         $(this).animate({width:"350px"});
         $('.element').not(this).removeClass('elementExpanded')
+        
     });
+
     $('#block-2').on('click', function () {
         $(this).finish().addClass('info-block-expanded');
         $('#block-1').finish().removeClass('info-block-expanded').addClass('info-block-orange');
